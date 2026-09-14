@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ziad Walid | Freelance Motion Graphic Designer</title>
+  <meta name="description" content="Personal portfolio of Ziad Walid, a freelance Motion Graphic Designer based in Giza, Egypt. Creative motion graphics, visual storytelling, and brand animation." />
+  <meta name="author" content="Ziad Walid" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Ziad Walid | Freelance Motion Graphic Designer" />
+  <meta property="og:description" content="Explore creative motion graphic design, visual projects, and professional services by Ziad Walid." />
+  <meta property="og:type" content="website" />
+
+  <!-- Design System & Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- WCAG Skip to Main Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ==========================================================================
+       SITE HEADER
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- Brand Logo -->
+      <a href="#home" class="logo" aria-label="Ziad Walid Portfolio Home">
+        ZW<span class="logo-dot">.</span>
+      </a>
+
+      <!-- Primary Navigation -->
+      <nav id="primary-navigation" class="primary-navigation" aria-label="Primary site navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Action Controls -->
+      <div class="header-actions">
+        <!-- Dark Mode Toggle Button -->
+        <button
+          id="theme-toggle"
+          class="theme-toggle-btn"
+          type="button"
+          aria-label="Switch to dark mode"
+          aria-pressed="false"
+        >
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+          <span class="theme-label">Dark</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button
+          id="menu-toggle"
+          class="mobile-menu-btn"
+          type="button"
+          aria-label="Open mobile navigation menu"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================== -->
+  <main id="main-content">
+
+    <!-- ========================================================================
+         SECTION 1: HOME / HERO (#home)
+         ======================================================================== -->
+    <section id="home" class="section hero-section" aria-labelledby="hero-title">
+      <!-- Ambient Background Shapes -->
+      <div class="hero-ambient-bg" aria-hidden="true">
+        <div class="ambient-orb orb-1"></div>
+        <div class="ambient-orb orb-2"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span>👋</span> Hello, I'm
+          </div>
+          <h1 id="hero-title" class="hero-title">
+            Ziad Walid
+            <span class="hero-role">Freelance Motion Graphic Designer</span>
+          </h1>
+          <p class="hero-desc">
+            Bringing visual stories to life through fluid animation, kinetic typography, and contemporary motion design. Focused on delivering calm, elegant, and impactful creative solutions.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              View My Work <span aria-hidden="true">→</span>
+            </a>
+            <a href="assets/cv/ziad-walid-cv.pdf" class="btn btn-secondary" download="Ziad-Walid-CV.pdf">
+              Download CV <span aria-hidden="true">📥</span>
+            </a>
+          </div>
+
+          <!-- Social Links Row -->
+          <div class="hero-social-row">
+            <span class="sr-only">Connect with Ziad on social media:</span>
+            <a
+              href="https://www.linkedin.com/in/zeyad-walled"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link-item"
+              aria-label="LinkedIn profile of Ziad Walid"
+            >
+              <span>🔗</span> LinkedIn
+            </a>
+            <a
+              href="[INSERT EXACT FACEBOOK URL HERE]"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link-item"
+              aria-label="Facebook profile (placeholder)"
+            >
+              <span>🌐</span> Facebook
+            </a>
+            <a
+              href="[INSERT EXACT GITHUB URL HERE]"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link-item"
+              aria-label="GitHub profile (placeholder)"
+            >
+              <span>💻</span> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Media Portrait Placeholder -->
+        <div class="hero-media">
+          <div class="portrait-wrapper">
+            <img
+              src="assets/ph.profile.png"
+              alt="Portrait placeholder for Ziad Walid - Motion Graphic Designer"
+              width="420"
+              height="525"
+            />
+            <div class="portrait-badge">
+              <span class="badge-pulse-indicator" aria-hidden="true"></span>
+              <div>
+                <span class="badge-text-primary">Available for Projects</span>
+                <span class="badge-text-secondary">Freelance &amp; Motion Direction</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 2: ABOUT ME (#about)
+         ======================================================================== -->
+    <section id="about" class="section section-alt" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Creative Identity</span>
+          <h2 id="about-title" class="section-title">About Me</h2>
+          <p class="section-subtitle">Dedicated to merging creative storytelling with precise visual execution.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-media-box">
+            <img
+              src="assets/images/about-placeholder.svg"
+              alt="Creative workspace and motion timeline graphic placeholder"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="about-content">
+            <h3>Visual Motion Designer &amp; Creative Thinker</h3>
+            
+            <!-- Editable Bio Placeholder as required -->
+            <p>
+              <span class="editable-placeholder">[INSERT EXACT ABOUT ME BIO HERE]</span>
+            </p>
+            <p>
+              Undergraduate student at Cairo University with an active background in student activities, non-profit initiatives, and digital design programs including DEPI, IEEE, and MSP. Passionate about transforming concepts into engaging motion assets.
+            </p>
+
+            <div class="about-info-cards">
+              <div class="stat-card">
+                <span class="stat-label">Location</span>
+                <span class="stat-value">Giza, Egypt</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-label">Education</span>
+                <span class="stat-value">Cairo University</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-label">Specialization</span>
+                <span class="stat-value">Motion Graphics</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-label">Graduation</span>
+                <span class="stat-value">2027 (Expected)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 3: EDUCATION (#education)
+         ======================================================================== -->
+    <section id="education" class="section" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Academics</span>
+          <h2 id="education-title" class="section-title">Education</h2>
+          <p class="section-subtitle">Formal academic background and ongoing university studies.</p>
+        </div>
+
+        <div id="education-list" class="education-list">
+          <!-- Populated dynamically from data.js via components.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 4: EXPERIENCE (#experience)
+         ======================================================================== -->
+    <section id="experience" class="section section-alt" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Track Record</span>
+          <h2 id="experience-title" class="section-title">Experience</h2>
+          <p class="section-subtitle">Initiatives, freelance work, and professional motion design engagements.</p>
+        </div>
+
+        <div class="section-action-bar">
+          <button id="btn-open-experience-modal" class="btn btn-secondary btn-sm" type="button">
+            + Add Experience
+          </button>
+        </div>
+
+        <div id="experience-list" class="experience-list">
+          <!-- Populated dynamically from state/storage via components.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 5: SKILLS (#skills)
+         ======================================================================== -->
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Capabilities</span>
+          <h2 id="skills-title" class="section-title">Skills &amp; Expertise</h2>
+          <p class="section-subtitle">Curated blend of creative software mastery, productivity tools, and collaborative soft skills.</p>
+        </div>
+
+        <div class="section-action-bar">
+          <button id="btn-open-skill-modal" class="btn btn-secondary btn-sm" type="button">
+            + Add Skill
+          </button>
+        </div>
+
+        <div id="skills-grid" class="skills-grid">
+          <!-- Populated dynamically by categories via components.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 6: PROJECTS (#projects)
+         ======================================================================== -->
+    <section id="projects" class="section section-alt" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Portfolio</span>
+          <h2 id="projects-title" class="section-title">Projects</h2>
+          <p class="section-subtitle">Selected creative works, animations, and motion graphic design projects.</p>
+        </div>
+
+        <div class="section-action-bar">
+          <button id="btn-open-project-modal" class="btn btn-primary btn-sm" type="button">
+            + Add Project
+          </button>
+        </div>
+
+        <!-- Empty State Container -->
+        <div id="projects-empty" class="empty-state-box">
+          <span class="empty-state-icon" aria-hidden="true">🎬</span>
+          <h3 class="empty-state-title">Creative projects are coming soon.</h3>
+          <p class="empty-state-text">New motion graphics showcases, promotional reels, and brand identity animations are currently in production.</p>
+          <button type="button" class="btn btn-secondary btn-sm" onclick="document.querySelector('#btn-open-project-modal').click()">
+            + Add First Project
+          </button>
+        </div>
+
+        <div id="projects-grid" class="projects-grid">
+          <!-- Dynamically populated if projects exist -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 7: ACHIEVEMENTS (#achievements)
+         ======================================================================== -->
+    <section id="achievements" class="section" aria-labelledby="achievements-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Recognition</span>
+          <h2 id="achievements-title" class="section-title">Achievements</h2>
+          <p class="section-subtitle">Certificates, recognitions, and milestone accomplishments.</p>
+        </div>
+
+        <div class="section-action-bar">
+          <button id="btn-open-achievement-modal" class="btn btn-secondary btn-sm" type="button">
+            + Add Achievement
+          </button>
+        </div>
+
+        <!-- Empty State Container -->
+        <div id="achievements-empty" class="empty-state-box">
+          <span class="empty-state-icon" aria-hidden="true">🏆</span>
+          <h3 class="empty-state-title">No achievements added yet.</h3>
+          <p class="empty-state-text">Official program certifications, competition wins, and awards will be featured here.</p>
+        </div>
+
+        <div id="achievements-grid" class="achievements-grid">
+          <!-- Dynamically rendered -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 8: TESTIMONIALS (#testimonials)
+         Heading must be exactly: "People Feedback" (bold)
+         ======================================================================== -->
+    <section id="testimonials" class="section section-alt" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Reviews</span>
+          <h2 id="testimonials-title" class="section-title"><strong>People Feedback</strong></h2>
+          <p class="section-subtitle">What collaborators, clients, and team leads say about working with Ziad.</p>
+        </div>
+
+        <div class="section-action-bar">
+          <button id="btn-open-testimonial-modal" class="btn btn-secondary btn-sm" type="button">
+            + Add Testimonial
+          </button>
+        </div>
+
+        <!-- Empty State Container -->
+        <div id="testimonials-empty" class="empty-state-box">
+          <span class="empty-state-icon" aria-hidden="true">💬</span>
+          <h3 class="empty-state-title">Testimonials will appear here.</h3>
+          <p class="empty-state-text">Client impressions, feedback on motion reels, and collaborative evaluations will be shown in this section.</p>
+        </div>
+
+        <div id="testimonials-grid" class="testimonials-grid">
+          <!-- Dynamically rendered -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 9: SERVICES (#services)
+         ======================================================================== -->
+    <section id="services" class="section" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">What I Do</span>
+          <h2 id="services-title" class="section-title">Services</h2>
+          <p class="section-subtitle">Comprehensive creative solutions tailored for brands, creators, and visual campaigns.</p>
+        </div>
+
+        <div class="section-action-bar">
+          <button id="btn-open-service-modal" class="btn btn-secondary btn-sm" type="button">
+            + Add Service
+          </button>
+        </div>
+
+        <div id="services-grid" class="services-grid">
+          <!-- 8 initial services populated dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 10: GET IN TOUCH (#contact)
+         ======================================================================== -->
+    <section id="contact" class="section section-alt" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Let's Connect</span>
+          <h2 id="contact-title" class="section-title">Get in Touch</h2>
+          <p class="section-subtitle">Have a motion graphics project in mind, need creative consultation, or want to discuss a collaboration?</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Contact Details -->
+          <div class="contact-info-panel">
+            <div class="contact-method-card">
+              <div class="contact-method-icon" aria-hidden="true">✉️</div>
+              <div class="contact-method-details">
+                <h4>Email Address</h4>
+                <a href="mailto:Zezowalledzakria@gmail.com">Zezowalledzakria@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-method-card">
+              <div class="contact-method-icon" aria-hidden="true">📱</div>
+              <div class="contact-method-details">
+                <h4>Phone / WhatsApp</h4>
+                <p>01020112597</p>
+              </div>
+            </div>
+
+            <div class="contact-method-card">
+              <div class="contact-method-icon" aria-hidden="true">📍</div>
+              <div class="contact-method-details">
+                <h4>Location</h4>
+                <p>Giza, Egypt</p>
+              </div>
+            </div>
+
+            <div class="contact-cta-buttons">
+              <!-- Primary Email Button -->
+              <a href="mailto:Zezowalledzakria@gmail.com" class="btn btn-primary">
+                Send Email <span>✉️</span>
+              </a>
+
+              <!-- WhatsApp Button (Egypt international format +20) -->
+              <a
+                href="https://wa.me/201020112597"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-whatsapp"
+                aria-label="Direct message Ziad Walid on WhatsApp"
+              >
+                Message on WhatsApp <span>💬</span>
+              </a>
+            </div>
+
+            <div class="hero-social-row">
+              <a href="https://www.linkedin.com/in/zeyad-walled" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                <span>🔗</span> LinkedIn
+              </a>
+              <a href="[INSERT EXACT FACEBOOK URL HERE]" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                <span>🌐</span> Facebook
+              </a>
+              <a href="[INSERT EXACT GITHUB URL HERE]" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                <span>💻</span> GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Simulated Contact Form -->
+          <div class="card contact-form-card">
+            <h3>Send a Message</h3>
+            <p>Fill in your inquiry details below and I will respond to you promptly.</p>
+
+            <form id="contact-form" class="editor-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="name"
+                  class="form-input"
+                  placeholder="e.g. Sarah Mitchell"
+                  required
+                />
+                <span class="form-field-error">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email</label>
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  class="form-input"
+                  placeholder="e.g. sarah@example.com"
+                  required
+                />
+                <span class="form-field-error">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  class="form-textarea"
+                  placeholder="Briefly describe your project, timeline, or inquiry..."
+                  required
+                ></textarea>
+                <span class="form-field-error">Please enter a message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+
+            <!-- Accessible Feedback Toast / Status message -->
+            <div id="contact-alert" class="alert-toast alert-success" role="status" aria-live="polite" hidden></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div>
+          <a href="#home" class="logo">ZW<span class="logo-dot">.</span></a>
+          <p style="margin-top: 0.5rem; max-width: 320px; font-size: 0.9rem;">
+            Ziad Walid • Freelance Motion Graphic Designer based in Giza, Egypt.
+          </p>
+        </div>
+
+        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> Ziad Walid. All rights reserved.
+        </div>
+        <div>
+          Crafted with modern HTML5, Vanilla CSS &amp; TypeScript architecture.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       ACCESSIBLE MODAL DIALOGS (<dialog>)
+       ========================================================================== -->
+
+  <!-- 1. Add Experience Dialog -->
+  <dialog id="dialog-add-experience" class="app-dialog" aria-labelledby="dialog-title-exp" aria-modal="true">
+    <div class="dialog-header">
+      <h3 id="dialog-title-exp">Add Experience</h3>
+      <button type="button" class="dialog-close-btn" aria-label="Close dialog">&times;</button>
+    </div>
+    <div class="dialog-body">
+      <form id="form-add-experience" class="editor-form">
+        <div class="form-group">
+          <label for="exp-work-name" class="form-label">Work Name / Organization *</label>
+          <input type="text" id="exp-work-name" name="workName" class="form-input" placeholder="e.g. Studio Agency or Brand" required />
+        </div>
+        <div class="form-group">
+          <label for="exp-role" class="form-label">Role / Subject *</label>
+          <input type="text" id="exp-role" name="role" class="form-input" placeholder="e.g. Senior Motion Designer" required />
+        </div>
+        <div class="form-group">
+          <label for="exp-start-year" class="form-label">Start Year *</label>
+          <input type="text" id="exp-start-year" name="startYear" class="form-input" placeholder="e.g. 2023" required />
+        </div>
+        <div class="form-group">
+          <label for="exp-end-year" class="form-label">End Year</label>
+          <input type="text" id="exp-end-year" name="endYear" class="form-input" placeholder="e.g. 2024" />
+        </div>
+        <label class="form-checkbox-row">
+          <input type="checkbox" id="exp-present" name="present" />
+          <span>I currently work here (Present)</span>
+        </label>
+        <div class="form-group">
+          <label for="exp-desc" class="form-label">Description (Optional)</label>
+          <textarea id="exp-desc" name="description" class="form-textarea" placeholder="Key responsibilities or notable motion graphics output..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Experience</button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- 2. Add Skill Dialog -->
+  <dialog id="dialog-add-skill" class="app-dialog" aria-labelledby="dialog-title-skill" aria-modal="true">
+    <div class="dialog-header">
+      <h3 id="dialog-title-skill">Add Skill</h3>
+      <button type="button" class="dialog-close-btn" aria-label="Close dialog">&times;</button>
+    </div>
+    <div class="dialog-body">
+      <form id="form-add-skill" class="editor-form">
+        <div class="form-group">
+          <label for="skill-name" class="form-label">Skill Name *</label>
+          <input type="text" id="skill-name" name="skillName" class="form-input" placeholder="e.g. Cinema 4D, After Effects" required />
+        </div>
+        <div class="form-group">
+          <label for="skill-category" class="form-label">Category</label>
+          <select id="skill-category" name="category" class="form-select">
+            <option value="Motion Graphics">Motion Graphics</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="Tools &amp; Office">Tools &amp; Office</option>
+            <option value="Soft Skills">Soft Skills</option>
+            <option value="General">General</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="skill-description" class="form-label">Description (Optional)</label>
+          <input type="text" id="skill-description" name="description" class="form-input" placeholder="e.g. 3D dynamics and keyframe animation" />
+        </div>
+        <button type="submit" class="btn btn-primary">Add Skill</button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- 3. Add Project Dialog -->
+  <dialog id="dialog-add-project" class="app-dialog" aria-labelledby="dialog-title-project" aria-modal="true">
+    <div class="dialog-header">
+      <h3 id="dialog-title-project">Add Project</h3>
+      <button type="button" class="dialog-close-btn" aria-label="Close dialog">&times;</button>
+    </div>
+    <div class="dialog-body">
+      <form id="form-add-project" class="editor-form">
+        <div class="form-group">
+          <label for="project-name" class="form-label">Project Name *</label>
+          <input type="text" id="project-name" name="projectName" class="form-input" placeholder="e.g. Brand Kinetic Reel" required />
+        </div>
+        <div class="form-group">
+          <label for="project-category-input" class="form-label">Category</label>
+          <input type="text" id="project-category-input" name="category" class="form-input" placeholder="e.g. 2D Motion, 3D Reel, Commercial" />
+        </div>
+        <div class="form-group">
+          <label for="project-image-url" class="form-label">Image / Thumbnail URL</label>
+          <input type="url" id="project-image-url" name="image" class="form-input" placeholder="https://... or leave empty for default placeholder" />
+        </div>
+        <div class="form-group">
+          <label for="project-link-url" class="form-label">Project URL (e.g. Vimeo, Behance, GitHub)</label>
+          <input type="url" id="project-link-url" name="url" class="form-input" placeholder="https://..." />
+        </div>
+        <div class="form-group">
+          <label for="project-description-input" class="form-label">Description</label>
+          <textarea id="project-description-input" name="description" class="form-textarea" placeholder="Describe the motion style, tools used, and results..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Project</button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- 4. Add Achievement Dialog -->
+  <dialog id="dialog-add-achievement" class="app-dialog" aria-labelledby="dialog-title-ach" aria-modal="true">
+    <div class="dialog-header">
+      <h3 id="dialog-title-ach">Add Achievement</h3>
+      <button type="button" class="dialog-close-btn" aria-label="Close dialog">&times;</button>
+    </div>
+    <div class="dialog-body">
+      <form id="form-add-achievement" class="editor-form">
+        <div class="form-group">
+          <label for="ach-title" class="form-label">Achievement Title *</label>
+          <input type="text" id="ach-title" name="title" class="form-input" placeholder="e.g. DEPI Motion Design Excellence Award" required />
+        </div>
+        <div class="form-group">
+          <label for="ach-source" class="form-label">Issuing Source / Organization</label>
+          <input type="text" id="ach-source" name="source" class="form-input" placeholder="e.g. Ministry of Communications &amp; IT" />
+        </div>
+        <div class="form-group">
+          <label for="ach-date" class="form-label">Date</label>
+          <input type="text" id="ach-date" name="date" class="form-input" placeholder="e.g. 2024" />
+        </div>
+        <div class="form-group">
+          <label for="ach-image" class="form-label">Image URL (Optional)</label>
+          <input type="url" id="ach-image" name="image" class="form-input" placeholder="https://..." />
+        </div>
+        <div class="form-group">
+          <label for="ach-desc" class="form-label">Description</label>
+          <textarea id="ach-desc" name="description" class="form-textarea" placeholder="Context or honors granted..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Achievement</button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- 5. Add Testimonial Dialog (People Feedback) -->
+  <dialog id="dialog-add-testimonial" class="app-dialog" aria-labelledby="dialog-title-test" aria-modal="true">
+    <div class="dialog-header">
+      <h3 id="dialog-title-test">Add Testimonial (People Feedback)</h3>
+      <button type="button" class="dialog-close-btn" aria-label="Close dialog">&times;</button>
+    </div>
+    <div class="dialog-body">
+      <form id="form-add-testimonial" class="editor-form">
+        <div class="form-group">
+          <label for="test-person-name" class="form-label">Person Name *</label>
+          <input type="text" id="test-person-name" name="personName" class="form-input" placeholder="e.g. Omar Hassan" required />
+        </div>
+        <div class="form-group">
+          <label for="test-role" class="form-label">Role</label>
+          <input type="text" id="test-role" name="role" class="form-input" placeholder="e.g. Creative Director" />
+        </div>
+        <div class="form-group">
+          <label for="test-company" class="form-label">Company</label>
+          <input type="text" id="test-company" name="company" class="form-input" placeholder="e.g. Studio Pulse" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Rating (1 to 5 Stars)</label>
+          <div class="star-rating-selector" aria-label="Select star rating from 1 to 5">
+            <span data-value="1">★</span>
+            <span data-value="2">★</span>
+            <span data-value="3">★</span>
+            <span data-value="4">★</span>
+            <span data-value="5">★</span>
+          </div>
+          <input type="hidden" id="testimonial-rating" name="rating" value="5" />
+        </div>
+        <div class="form-group">
+          <label for="test-feedback" class="form-label">Feedback *</label>
+          <textarea id="test-feedback" name="feedback" class="form-textarea" placeholder="Ziad's motion graphic work was fast, creative, and elevated our brand..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Testimonial</button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- 6. Add Service Dialog -->
+  <dialog id="dialog-add-service" class="app-dialog" aria-labelledby="dialog-title-service" aria-modal="true">
+    <div class="dialog-header">
+      <h3 id="dialog-title-service">Add Service</h3>
+      <button type="button" class="dialog-close-btn" aria-label="Close dialog">&times;</button>
+    </div>
+    <div class="dialog-body">
+      <form id="form-add-service" class="editor-form">
+        <div class="form-group">
+          <label for="srv-name" class="form-label">Service Name *</label>
+          <input type="text" id="srv-name" name="serviceName" class="form-input" placeholder="e.g. 3D Product Animation" required />
+        </div>
+        <div class="form-group">
+          <label for="srv-icon" class="form-label">Icon / Emoji</label>
+          <input type="text" id="srv-icon" name="icon" class="form-input" placeholder="e.g. 🎬 or 💡" />
+        </div>
+        <div class="form-group">
+          <label for="srv-desc" class="form-label">Description</label>
+          <textarea id="srv-desc" name="description" class="form-textarea" placeholder="Description of deliverables and process..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Service</button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- Application Bootstrap Module -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

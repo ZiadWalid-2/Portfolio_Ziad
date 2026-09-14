@@ -1,0 +1,251 @@
+/* ==========================================================================
+   RESPONSIVE & ADAPTIVE STYLES
+   Breakpoints: 320px, 480px, 768px, 1024px, 1280px+ & RTL Preparation
+   ========================================================================== */
+
+/* ==========================================================================
+   TABLET & MOBILE NAVIGATION (<= 992px)
+   ========================================================================== */
+
+@media (max-width: 992px) {
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  .primary-navigation {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg-surface);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 1.75rem;
+    gap: 0.75rem;
+    border-top: 1px solid var(--border-subtle);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: transform var(--transition-smooth), opacity var(--transition-smooth), visibility var(--transition-smooth);
+    overflow-y: auto;
+    z-index: var(--z-overlay);
+  }
+
+  .primary-navigation.is-open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .primary-navigation .nav-link {
+    width: 100%;
+    font-size: 1.15rem;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-md);
+  }
+
+  .primary-navigation .nav-link:hover,
+  .primary-navigation .nav-link:focus-visible {
+    background: var(--primary-light);
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2.5rem;
+  }
+
+  .hero-content {
+    align-items: center;
+  }
+
+  .hero-cta-group {
+    justify-content: center;
+  }
+
+  .hero-social-row {
+    justify-content: center;
+  }
+
+  .hero-media {
+    order: -1;
+  }
+
+  .portrait-wrapper {
+    max-width: 340px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+/* ==========================================================================
+   MOBILE LANDSCAPE & PHONES (<= 768px)
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  :root {
+    --header-height: 70px;
+  }
+
+  .container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .section {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .section-action-bar {
+    justify-content: center;
+  }
+
+  .timeline-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .timeline-icon-box {
+    width: 44px;
+    height: 44px;
+    font-size: 1.25rem;
+  }
+
+  .skills-grid,
+  .projects-grid,
+  .achievements-grid,
+  .testimonials-grid,
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top,
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.25rem;
+  }
+
+  .footer-bottom {
+    align-items: center;
+  }
+
+  .contact-cta-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-cta-buttons .btn {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   VERY SMALL PHONES (<= 480px & 320px)
+   ========================================================================== */
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.1rem;
+  }
+
+  .hero-role {
+    font-size: 1.25rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .hero-social-row {
+    flex-wrap: wrap;
+    gap: 0.85rem;
+  }
+
+  .portrait-wrapper {
+    max-width: 280px;
+  }
+
+  .portrait-badge {
+    bottom: 0.75rem;
+    left: 0.75rem;
+    right: 0.75rem;
+    padding: 0.65rem 0.85rem;
+  }
+
+  .card {
+    padding: 1.25rem;
+  }
+
+  .dialog-header,
+  .dialog-body {
+    padding: 1.25rem;
+  }
+}
+
+/* Extremely narrow devices (320px) */
+@media (max-width: 340px) {
+  .container {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  .theme-toggle-btn span:last-child {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   RTL (ARABIC) PREPARATION
+   Site-ready for bilingual localization
+   ========================================================================== */
+
+[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+}
+
+[dir="rtl"] .hero-content {
+  text-align: right;
+}
+
+[dir="rtl"] .primary-navigation {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .timeline-card {
+  grid-template-columns: 1fr auto;
+}
+
+[dir="rtl"] .testimonial-quote::before {
+  margin-right: 0;
+  margin-left: 0.3rem;
+}
+
+[dir="rtl"] .skip-link {
+  left: auto;
+  right: 1.5rem;
+}

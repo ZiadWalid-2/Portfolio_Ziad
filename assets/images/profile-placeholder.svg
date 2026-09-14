@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b7a7c" />
+      <stop offset="50%" stop-color="#122e33" />
+      <stop offset="100%" stop-color="#091719" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ec2ba" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3ab09e" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2f1" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#4ec2ba" stop-opacity="0.05" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bgGrad)" />
+
+  <!-- Ambient Wave Forms / Motion Graphics Accents -->
+  <circle cx="400" cy="380" r="260" fill="url(#circleGrad)" />
+  <circle cx="680" cy="200" r="180" fill="url(#accentGrad)" filter="url(#glow)" />
+  <circle cx="150" cy="750" r="220" fill="url(#accentGrad)" filter="url(#glow)" />
+
+  <!-- Motion Graphic Wave Curves -->
+  <path d="M-50,600 C200,500 350,750 850,550 L850,1050 L-50,1050 Z" fill="#0b2226" opacity="0.7" />
+  <path d="M-50,700 C250,620 450,820 850,680 L850,1050 L-50,1050 Z" fill="#122f34" opacity="0.85" />
+  <path d="M-50,800 C300,750 500,880 850,780 L850,1050 L-50,1050 Z" fill="#173c42" />
+
+  <!-- Stylized Motion Designer Avatar / Portrait Silhouette -->
+  <g transform="translate(250, 200)">
+    <!-- Head & Shoulders Silhouette -->
+    <circle cx="150" cy="120" r="85" fill="#4ec2ba" opacity="0.25" />
+    <circle cx="150" cy="120" r="75" fill="#e0f2f1" opacity="0.9" />
+    <path d="M40,320 C40,225 100,205 150,205 C200,205 260,225 260,320 Z" fill="#e0f2f1" opacity="0.9" />
+    
+    <!-- Motion Vector Frames / Keyframe indicator -->
+    <rect x="70" y="40" width="160" height="160" rx="20" fill="none" stroke="#4ec2ba" stroke-width="3" stroke-dasharray="10 8" opacity="0.6" />
+    <polygon points="140,100 170,120 140,140" fill="#1b7a7c" />
+  </g>
+
+  <!-- Typography Placeholder Overlay -->
+  <rect x="100" y="60" width="600" height="60" rx="30" fill="rgba(0,0,0,0.3)" />
+  <text x="400" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" fill="#4ec2ba" text-anchor="middle" letter-spacing="3">
+    PORTRAIT PLACEHOLDER
+  </text>
+
+  <text x="400" y="860" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="800" fill="#ffffff" text-anchor="middle">
+    Ziad Walid
+  </text>
+  <text x="400" y="905" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="500" fill="#a3c7c7" text-anchor="middle">
+    Freelance Motion Graphic Designer
+  </text>
+</svg>
